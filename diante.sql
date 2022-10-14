@@ -54,7 +54,7 @@ CREATE TABLE `drivers` (
 --
 
 INSERT INTO `drivers` (`ID`, `Name`, `Phone_Number`, `Email_Address`, `Profile_Picture`, `Driver_licence_ID`, `Car_Licence_ID`, `Lack_Of_Judgment_File`, `Car_Plat_Number`, `Car_Type`, `Longitude`, `Latitude`, `Password`, `Verification_Code`, `Avalability_Status`, `Total_Rate`, `Status`, `Add_Date_Time`) VALUES
-(4, 'Saleh', '0798117585', 'saleh@live.com', 'Drivers_Info/logo.png', 'Drivers_Info/logo.png', 'Drivers_Info/logo.png', 'Drivers_Info/logo.png', '123456', 'Test', '35.8383616', '31.962726399999998', 'Ss123123', '3735', 'True', 0, 'Active', '2020-01-16 15:22:41');
+(4, '', '', '', 'Drivers_Info/logo.png', 'Drivers_Info/logo.png', 'Drivers_Info/logo.png', 'Drivers_Info/logo.png', '123456', 'Test', '35.8383616', '31.962726399999998', '', '3735', 'True', 0, 'Active', '2020-01-16 15:22:41');
 
 -- --------------------------------------------------------
 
@@ -153,7 +153,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`ID`, `Name`, `Phone_Number`, `Email_Address`, `Password`, `Longitude`, `Latitude`, `Penlty_Balance`, `Verification_Code`, `Status`, `Total_Rate`, `Add_Date_Time`) VALUES
-(1, 'Ameer', '0797221324', 'ameer@live.com', 'Aa123123', '35.8328734', '31.971790699999996', '0', '7773', 'Active', '5', '2020-01-16 15:26:28');
+(1, 'Ameer', '', '', '', '35.8328734', '31.971790699999996', '0', '7773', 'Active', '5', '2020-01-16 15:26:28');
 
 -- --------------------------------------------------------
 
